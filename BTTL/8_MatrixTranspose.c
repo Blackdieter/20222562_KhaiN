@@ -20,12 +20,6 @@ int main(){
         rows++;
         token = strtok(NULL,";,");
     }
-
-    // printf("The matrix is:\n");
-    // for(int i=0;i<rows;i++){
-    //     printf("%s\n",rowMatrix[i]);
-    // }
-
     // Extract the celss of a matrix
     for(int i=0;i<rows;i++){
         cols = 0;
